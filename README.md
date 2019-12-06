@@ -2,6 +2,9 @@
 
 Chosen for google cloud because it has cheaper kubernetes support.
 
+## Triggering deploy
+curl -X POST -u <username> https://api.github.com/repos/<account>/<repo>/deployments -d @staging.json
+
 ## Installation of terraform and setting up project
 
 https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/5.1.1
